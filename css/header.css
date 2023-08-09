@@ -18,10 +18,11 @@
     display: inline-block;
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 1em;
 }
 
 .container__imagem {
-    padding: 1em;
+    padding-left: 1em;
 }
 
 .lista-menu {
