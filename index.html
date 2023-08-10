@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="./img/Logo.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link
   rel="stylesheet"
@@ -33,9 +33,29 @@
                     <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Desing & Ux</a></li>
                 </ul>
                 <img src="./img/Logo.svg" alt="Logo" class="container__imagem">
-            </div>    
-            <div class="container itens_imagens">
-                <a href="#"> <img src="./img/Favoritos.svg" alt="Favoritos"  class="container__imagem"></a>
+                <div class="container__titulo">
+                    <h2 class="container__titulo__principal">Alura</h2>
+                    <b class="container__principal-subtitulo">Books</b>
+                </div>    
+            
+                <ul class="lista-container">
+                    <input type="checkbox" id="opcoes" class="opcoes">
+                    <label for="opcoes">
+                        <li class="lista-container-item">Categorias</li>
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Programação</a></li>
+                        <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Front-end</a></li>
+                        <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                        <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Business</a></li>
+                        <li class="lista-menu__Item"> <a href="#" class="lista-menu__link">Desing & Ux</a></li>
+                    </ul>
+                    <li class="lista-container-item"><a href="#" class="lista-container-link">Favoritos</a></li>
+                    <li class="lista-container-item"><a href="#" class="lista-container-link">Minha Estante</a></li>
+                </ul>
+
+                <div class="container itens_imagens">
+                <a href="#"> <img src="./img/Favoritos.svg" alt="Favoritos"  class="container__imagem favoritos-imagem"></a>
                 <a href="#"> <img src="./img/Sacola.svg" alt="Sacola"  class="container__imagem"></a>
                 <a href="#"> <img src="./img/Usuario.svg" alt="Usuario"  class="container__imagem"></a>
             </div>    
@@ -153,9 +173,15 @@
         </section>
 
         <section class="contato">
-            <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
-            <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
-            <input type="email" class="contato_email" placeholder="Cadastre seu e-mail">
+            <div class="contato_container">
+                <div >
+                    <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
+                    <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+                </div>    
+                <input type="email" class="contato_email" placeholder="Cadastre seu e-mail">
+            </div>
+
+         
 
         </section>
     </main>

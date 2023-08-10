@@ -30,3 +30,22 @@
     background-repeat: no-repeat;
     background-position: 4em;
 }
+
+@media screen and (min-width:1024px) {
+    .banner {
+        padding: 5em;
+    }
+    
+    .banner__titulo {
+        font-size: 36px;
+    }
+    
+    .banner__pesquisar {
+        width:35%;
+        padding:1em
+    }
+
+    .banner__pesquisar::placeholder {
+        background-position: 1.5em;
+    }
+}

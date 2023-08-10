@@ -31,3 +31,11 @@
     background-repeat: no-repeat;
     padding-left: 2em;   
 }
+
+@media screen and (min-width:1024px) {
+    .contato_container {
+        display: flex;
+        
+    }
+    
+}
